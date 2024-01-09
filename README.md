@@ -32,7 +32,7 @@ of interest and reach their destinations quickly. Users can also submit and shar
 * **Documentation**
   * To generate API documentation in HTML format for the Java classes of the application, we will use the [Javadoc tool](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html).
 
-### Project Management
+## Project Management
 *Confluence* : for project Documenation (UML use cases, UML class diagram, Activity Diagram)
 
 *Jira* : to manage project tasks through a Kanban board
