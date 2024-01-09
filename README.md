@@ -30,13 +30,22 @@ The project involves creating a Java  desktop application, and we used NetBeans 
 To generate API documentation in HTML format for the Java classes of the application, we will use the [Javadoc tool](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html).
 
 ### Project Management
-**Confluence** : for project Documenation (UML use cases, UML class diagram, Activity Diagram)
+*Confluence* : for project Documenation (UML use cases, UML class diagram, Activity Diagram)
 
-**Jira** : to manage project tasks through a Kanban board
+*Jira* : to manage project tasks through a Kanban board
 
-**BitBucket** : to manage and store the project code
+*BitBucket* : to manage and store the project code
 
-**Balsamic Wireframes** : to create the project mockup
+*Balsamic Wireframes* : to create the project mockup
+
+## Run the application
+To directly run the application, please ensure that Java and JavaFX are installed, and open the command line/prompt from the downloaded application folder (GIS-Maven\target\). 
+
+There, input the runtime command:
+
+```
+java -jar --module-path "libs" --add-modules javafx.controls,javafx.fxml GISapp-1.0-SNAPSHOT.jar
+```
 
 ## Some pages from the application
 
