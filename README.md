@@ -47,7 +47,7 @@ Balsamic Wireframes : to create the project mockup
 <img src="Project-Pictures/signup.png" width=70%>
 
 ### Application main page
-<img src="Project-Pictures/main_page.png" width=70%>
+<img src="Project-Pictures/main.png" width=100%>
 
  
 
