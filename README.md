@@ -1,4 +1,4 @@
-![GIS_System](https://github.com/valerielnd/GIS_System/blob/main/Project-Pictures/GIS.png)
+<img src="Project-Pictures/WGIS.png" width=100%>
 
 A desktop application in Java designed for navigating within Western University's campus.
 
