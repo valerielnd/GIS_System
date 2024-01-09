@@ -1,0 +1,23 @@
+[
+  {
+    "email": "user1.com",
+    "password": "user1",
+    "Question": "What is your favorite country?",
+    "Answer": "Australia",
+    "Developer": 0,
+    "POIList": [
+      
+    ]
+  },
+  {
+    "email": "user2.com",
+    "password": "user1",
+    "Question": "What is your favorite country?",
+    "Answer": "Brazil",
+    "Developer": 1,
+    "POIList": [
+      
+      
+    ]
+  }
+]

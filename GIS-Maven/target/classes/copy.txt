@@ -1,0 +1,263 @@
+  try {
+          
+            // Load the AddPOI view
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/addPOI.fxml"));
+            
+            Parent root = loader.load();
+            
+            // TRansfer the map Data to the new view
+            ((AddPOIController)loader.getController()).setMapData2(map2);
+            
+            // Create tne new window for the new view with a new scene graph
+            Stage stage = new Stage();
+            
+            Scene scene = new Scene(root);
+            
+            stage.setScene(scene);
+            
+            Image appIcon = new Image("/images/Stacked.png");
+            
+            stage.getIcons().add(appIcon);
+            
+            // Set window modality
+            stage.setTitle("GIS - Add POI");
+            
+            stage.initModality(Modality.APPLICATION_MODAL);
+            
+            stage.show();
+        } catch (Exception e) {
+            
+            e.printStackTrace();
+        }
+
+
+mapNewImage.setOnMouseClicked((MouseEvent event) -> {
+        System.out.println("Ok");
+    });
+
+
+@FXML
+    void cancel(ActionEvent event) {
+
+    }
+
+Optional<ButtonType> result = alert.showAndWait();
+
+
+//selectFloorPOI
+        
+        //String currentPOIName = currentPOI.getPOIName().split("_")[0] + currentPOI.getPOIName().split("_")[3];
+        
+        if(!selectFloorPOI.equals("")){
+            
+            if(bldg!= null && floor!= null)
+        
+                String bldgName = bldg.getName();
+        
+            int floorNum = newPOI.getFloor();
+
+            ArrayList<Building> buildings = campMap.getBuilding();
+
+            /** If the POIs to show are on the campus map*/
+            if(bldgName.equals("Campus Map")){
+
+                mapPath = "/images/"+campMap.getMapFile();
+
+                //System.out.println("Campus Map");
+
+                currentMap = "Campus Map";
+
+                bldg = null;
+
+                floor = null;
+
+                bldgCombo.getSelectionModel().clearSelection();
+
+                floorCombo.getSelectionModel().clearSelection();
+
+                /** Set the value of the map name since a new map will be displayed*/
+                map2.setMapName("Campus Map");
+
+                /** Set the value of the floor number*/
+                map2.setFloorNum(0);
+
+            }
+            else {
+
+                /** If it is one of the 3 other buildings*/
+                for(int j = 0; j < buildings.size(); j++){
+
+                    if(bldgName.equals(buildings.get(j).getName())){
+
+                        //System.out.println(" building found");
+
+                        Building newBuilding = buildings.get(j);
+
+                        bldg = newBuilding;
+
+                        bldgCombo.setValue(bldg.getName());
+
+                        /** Set the value of the map name since a new map will be displayed*/
+                        map2.setMapName(bldg.getName());
+
+                        ArrayList<Floor> floors = newBuilding.getFloors();
+
+                        for (Floor floor1 : floors) {
+
+                            if(floor1.getfloorNUm() == floorNum){
+
+                                //System.out.println("Other building");
+
+                                mapPath = "/images/"+floor1.getMapFile(); 
+
+                                floor = floor1;
+
+                                floorCombo.setValue(Integer.toString(floor.getfloorNUm()));
+
+                                /** Set the value of the floor number*/
+                                map2.setFloorNum(floor.getfloorNUm());
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+
+ public
+
+loor = floor1;
+
+/**
+*add building method
+*add the next 
+*@param	mapFile	the .png name of the picture
+*/
+
+
+
+
+/** Add a listener to the POI combo box to detect event*/
+                        POICombo.getSelectionModel().selectedItemProperty().addListener((options,oldValue,newValue)-> {
+                            
+                            System.out.println("POI listener activated");
+           
+                            if(newValue != null){
+
+                                showPOI(newValue,campusPOIs);
+
+                            }
+            
+                        });
+
+
+exitPOILayer  elevator  stairs"  exit
+
+stairsPOILayer 
+
+restaurantPOILayer 
+
+restaurantPOILayer
+
+restaurantPOILayer  
+
+
+levator  stairs"  exit
+
+/**
+* Set the UserData object to retrieve the current suer data
+* @param userInfo the UserData containing the current user data
+*/  
+
+ /**
+     * Cancel the action of adding a building
+     * @param event the event detected when the user click on add building
+     */    
+
+
+assertThrows(IllegalArgumentException.class, ()->{instance.setAverage(average);});     
+        newemail@uwo.ca
+
+assertEquals("newemail@uwo.ca", user2.getEmail());
+
+new User("someone@uwo.ca", "password", "What is this", "a chair", 1);
+
+new User("someone@uwo.ca", "password", "What is this", "a chair", 1);
+
+ newemail@uwo.ca
+
+ newemail@uwo.ca
+assertEquals("new password", user2.getPassword());
+
+What is this
+
+What is this
+
+newemail@uwo.ca
+
+var user1 = new User("someone@uwo.ca", "", "What is this", "a chair", 0);
+		var user2 = new User("newemail@uwo.ca", "", "Who are you", "student", 0);
+
+		// check get answer of user1
+		assertEquals("a chair", user1.getSecAnswer());
+
+		// check get answer of user2
+		assertEquals("student", user2.getSecAnswer());
+		System.out.println("passed");
+
+
+
+
+@Test
+	void testUserType() {
+		System.out.println("______________________");
+		System.out.println("check true false for user type:");
+		// create users
+		// user1 is a regular user
+		// user2 is a developer
+		var user1 = new User("someone@uwo.ca", "", "What is this", "a chair", 0);
+		var user2 = new User("newemail@uwo.ca", "", "Who are you", "student", 1);
+
+		// check user 1 is not a developer
+		assertFalse(user1.isDeveloper());
+
+		// check user 2 is a developer
+		assertTrue(user2.isDeveloper());
+
+		System.out.println("passed");
+
+	}
+          
+
+instance
+
+System.ou
+
+@Test
+	void addOnePOIs() {
+		System.out.println("______________________");
+		System.out.println("add one POIs:");
+
+		// need to adjust with poi class
+		// 2 new pois
+		var poi1 = new POI("MC", 1, "MC_1", 9, false, "");
+
+		// a poifav list to compare
+		ArrayList<POI> FavList = new ArrayList<>();
+
+		// create a user
+		var user1 = new User("someone@uwo.ca", "", "What is this", "a dog", 0);
+
+		// add 1st poi into compare list
+		FavList.add(poi1);
+
+		// add 1st poi into user fav list
+		user1.addFav(poi1);
+
+		// check equal if the first poi is added
+		assertEquals(user1.getUserFavs(), FavList);
+		System.out.println("passed");
+
+	}
+

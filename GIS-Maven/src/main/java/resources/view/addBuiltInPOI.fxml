@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="addPOIBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="656.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddBuiltInPOIController">
+   <children>
+      <GridPane fx:id="addPOIPane" prefHeight="475.0" prefWidth="669.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="25.599996948242186" minHeight="21.599996948242186" prefHeight="21.599996948242186" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="36.80000305175781" minHeight="24.00000915527344" prefHeight="24.00000915527344" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="47.999990844726554" minHeight="30.400000000000006" prefHeight="40.00000610351563" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="52.19998779296874" minHeight="10.0" prefHeight="40.79999389648438" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="64.80000000000001" minHeight="10.0" prefHeight="47.199993896484386" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="71.80000610351561" minHeight="26.399975585937483" prefHeight="42.400000000000006" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="97.59998168945316" minHeight="10.0" prefHeight="51.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="147.00000000000003" minHeight="98.20001831054688" prefHeight="121.60002441406243" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="102.79997558593749" minHeight="57.39999999999998" prefHeight="57.39999999999998" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <HBox prefHeight="39.0" prefWidth="656.0">
+               <children>
+                  <Region prefHeight="37.0" prefWidth="26.0" HBox.hgrow="ALWAYS" />
+                  <Label prefHeight="18.0" prefWidth="248.0" text="You are currently adding a buitl-in POI to">
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Region prefHeight="67.0" prefWidth="0.0" HBox.hgrow="NEVER" />
+                  <Label fx:id="mapNameLabel" alignment="CENTER" prefHeight="18.0" prefWidth="188.0" textFill="#b11616" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Region prefHeight="67.0" prefWidth="0.0" HBox.hgrow="NEVER" />
+                  <Label prefHeight="18.0" prefWidth="186.0" text="   If this is not the correct map,">
+                     <HBox.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Region prefHeight="37.0" prefWidth="82.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Region prefHeight="38.0" prefWidth="104.0" HBox.hgrow="ALWAYS" />
+                  <Label alignment="CENTER" prefHeight="18.0" prefWidth="479.0" text="Please select cancel and navigate to the correct map .">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Region prefHeight="38.0" prefWidth="89.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="45.0" prefWidth="656.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+               <children>
+                  <HBox prefHeight="54.0" prefWidth="141.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Region prefHeight="54.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+                        <Label fx:id="POIxPosLbl" alignment="CENTER" prefHeight="18.0" prefWidth="131.0" text="POI x position" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Region prefHeight="54.0" prefWidth="60.0" HBox.hgrow="ALWAYS" />
+                     </children>
+                     <HBox.margin>
+                        <Insets top="5.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <HBox prefHeight="67.0" prefWidth="333.0">
+                     <children>
+                        <TextField fx:id="POIxPosTxt">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Region prefHeight="52.0" prefWidth="18.0" />
+                        <Label prefHeight="18.0" prefWidth="151.0" textFill="#d70f0f" fx:id="xerrorLbl">
+                           <HBox.margin>
+                              <Insets top="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="45.0" prefWidth="656.0" GridPane.rowIndex="5">
+               <children>
+                  <HBox prefHeight="51.0" prefWidth="322.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Region prefHeight="42.0" prefWidth="118.0" HBox.hgrow="ALWAYS" />
+                        <Label fx:id="POINameLbl" alignment="CENTER" prefHeight="18.0" prefWidth="83.0" text="POI Name" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Region prefHeight="42.0" prefWidth="154.0" HBox.hgrow="ALWAYS" />
+                     </children>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <HBox prefHeight="67.0" prefWidth="333.0">
+                     <children>
+                        <TextField fx:id="POINameText" prefHeight="26.0" prefWidth="169.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Region prefHeight="77.0" prefWidth="46.0" HBox.hgrow="ALWAYS" />
+                        <CheckBox fx:id="favCheckBox" mnemonicParsing="false" prefHeight="18.0" prefWidth="99.0" text="favorite" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </CheckBox>
+                        <Label fx:id="nameErrorLbl" prefHeight="18.0" prefWidth="101.0" textFill="#d11616">
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Region prefHeight="52.0" prefWidth="18.0" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="7">
+               <children>
+                  <VBox prefHeight="116.0" prefWidth="656.0">
+                     <children>
+                        <HBox prefHeight="45.0" prefWidth="656.0">
+                           <children>
+                              <HBox prefHeight="51.0" prefWidth="322.0" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Region prefHeight="38.0" prefWidth="30.0" HBox.hgrow="ALWAYS" />
+                                    <Label alignment="CENTER" prefHeight="18.0" prefWidth="102.0" text="POI Description" HBox.hgrow="ALWAYS">
+                                       <HBox.margin>
+                                          <Insets top="20.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Region prefHeight="66.0" prefWidth="73.0" HBox.hgrow="ALWAYS" />
+                                 </children>
+                                 <HBox.margin>
+                                    <Insets top="10.0" />
+                                 </HBox.margin>
+                              </HBox>
+                              <HBox prefHeight="67.0" prefWidth="333.0">
+                                 <children>
+                                    <Region prefHeight="77.0" prefWidth="46.0" HBox.hgrow="ALWAYS" />
+                                    <Region prefHeight="77.0" prefWidth="125.0" HBox.hgrow="ALWAYS" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <HBox prefHeight="114.0" prefWidth="656.0">
+                           <children>
+                              <Region prefHeight="72.0" prefWidth="73.0" HBox.hgrow="ALWAYS" />
+                              <TextField fx:id="POIDescText" prefHeight="52.0" prefWidth="334.0">
+                                 <HBox.margin>
+                                    <Insets left="40.0" top="20.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Region prefHeight="72.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+                              <Label fx:id="descErrorLbl" prefHeight="18.0" prefWidth="124.0" textFill="#dc1010">
+                                 <HBox.margin>
+                                    <Insets top="25.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <HBox prefHeight="45.0" prefWidth="656.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="8" GridPane.vgrow="ALWAYS">
+               <children>
+                  <HBox prefHeight="67.0" prefWidth="333.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="savePOIBtn" mnemonicParsing="false" onAction="#save" prefHeight="26.0" prefWidth="104.0" text="Save" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Region HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="67.0" prefWidth="333.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button fx:id="cancelAddPOIBtn" mnemonicParsing="false" onAction="#cancel" prefHeight="26.0" prefWidth="109.0" text="cancel" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="5.0" top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Region HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="45.0" prefWidth="656.0" GridPane.rowIndex="6">
+               <children>
+                  <HBox prefHeight="54.0" prefWidth="141.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Region prefHeight="39.0" prefWidth="17.0" HBox.hgrow="ALWAYS" />
+                        <Label fx:id="POItypeLbl" alignment="CENTER" prefHeight="18.0" prefWidth="74.0" text="POI type" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Region prefHeight="54.0" prefWidth="60.0" HBox.hgrow="ALWAYS" />
+                     </children>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <HBox prefHeight="67.0" prefWidth="333.0">
+                     <children>
+                        <TextField fx:id="POITypeText">
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Label fx:id="typeErrorLbl" prefHeight="18.0" prefWidth="150.0" textFill="#d11111">
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="45.0" prefWidth="656.0" GridPane.rowIndex="3">
+               <children>
+                  <HBox prefHeight="54.0" prefWidth="141.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Region prefHeight="54.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+                        <Label fx:id="POIyPosLbl" alignment="CENTER" prefHeight="18.0" prefWidth="131.0" text="POI y position" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Region prefHeight="54.0" prefWidth="60.0" HBox.hgrow="ALWAYS" />
+                     </children>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <HBox prefHeight="67.0" prefWidth="333.0">
+                     <children>
+                        <TextField fx:id="POIyPosText">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Region prefHeight="52.0" prefWidth="18.0" />
+                        <Label fx:id="yerrorLbl" prefHeight="18.0" prefWidth="156.0" textFill="#ea0d0d">
+                           <HBox.margin>
+                              <Insets top="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="45.0" prefWidth="656.0" GridPane.rowIndex="4">
+               <children>
+                  <HBox prefHeight="54.0" prefWidth="141.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Region prefHeight="54.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+                        <Label fx:id="POIyPosLbl1" alignment="CENTER" prefHeight="18.0" prefWidth="131.0" text="Or Select on Map" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Region prefHeight="54.0" prefWidth="60.0" HBox.hgrow="ALWAYS" />
+                     </children>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <HBox prefHeight="67.0" prefWidth="333.0">
+                     <children>
+                        <Region prefHeight="46.0" prefWidth="0.0" />
+                        <Button fx:id="selectOnMap" mnemonicParsing="false" onAction="#selectOnMap" text="Select on Map">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Label fx:id="yerrorLbl1" prefHeight="18.0" prefWidth="156.0" textFill="#ea0d0d">
+                           <HBox.margin>
+                              <Insets top="25.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+   </children>
+</VBox>

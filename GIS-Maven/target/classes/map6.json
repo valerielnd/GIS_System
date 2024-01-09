@@ -1,0 +1,1415 @@
+{
+  "campusMap": "campus_map-1.png",
+  "CampusPOIList": [
+    {
+      "POIName": "Middlesex College",
+      "Description": "Building for the departments of Mathematics and Computer Science",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 2821,
+        "y": 2506
+      }
+    },
+    {
+      "POIName": "Alumni Hall",
+      "Description": "Multi-purpose Auditorium",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 1980,
+        "y": 3477
+      }
+    },
+    {
+      "POIName": "TD Stadium",
+      "Description": "Athletics stadium",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 2160,
+        "y": 4787
+      }
+    },
+    {
+      "POIName": "Medical Sciences Building",
+      "Description": "Building for the department of Medical Sciences",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 1992,
+        "y": 2277
+      }
+    },
+    {
+      "POIName": "University College",
+      "Description": "Western's iconic building, home to the Faculty of Arts & Humanities",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 2240,
+        "y": 2730
+      }
+    },
+    {
+      "POIName": "Arts and Humanities Building",
+      "Description": "Building for the department of Arts and Humanities",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 2303,
+        "y": 3069
+      }
+    },
+    {
+      "POIName": "University Community Centre",
+      "Description": "Western University eateries and other services",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 1644,
+        "y": 2695
+      }
+    },
+    {
+      "POIName": "Dental Sciences Building",
+      "Description": "Building for the department of Dental Sciences",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 1957,
+        "y": 2017
+      }
+    },
+    {
+      "POIName": "Western Science Centre",
+      "Description": "Building for the department of Science",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 2582,
+        "y": 2392
+      }
+    },
+    {
+      "POIName": "Physics and Astronomy Building",
+      "Description": "This is the physics building",
+      "Type": 1,
+      "Fav": false,
+      "BuildingName": "Campus Map",
+      "FloorNumber": 0,
+      "Location": {
+        "x": 2362,
+        "y": 2443
+      }
+    }
+  ],
+  "BuildingList": [
+    {
+      "BuildingName": "Middlesex College",
+      "Building Description": "Building for Department of Mathematics and Computer Science",
+      "Building Location": {
+        "x": 2821,
+        "y": 2506
+      },
+      "FloorList": [
+        {
+          "FloorNumber": 0,
+          "BuildingName": "Middlesex College",
+          "FloorMap": "MC1.png",
+          "POIList": [
+            {
+              "POIName": "MC_0_C_15A",
+              "Description": "Classroom in Middlesex College basement floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 344,
+                "y": 1128
+              }
+            },
+            {
+              "POIName": "MC_0_C_15B",
+              "Description": "Classroom in Middlesex College basement floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 495,
+                "y": 1150
+              }
+            },
+            {
+              "POIName": "MC_0_C_14",
+              "Description": "Classroom in Middlesex College basement floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 422,
+                "y": 1545
+              }
+            },
+            {
+              "POIName": "MC_0_C_13",
+              "Description": "Classroom in Middlesex College basement floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 652,
+                "y": 1514
+              }
+            },
+            {
+              "POIName": "MC_0_C_12",
+              "Description": "Classroom in Middlesex College basement floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 571,
+                "y": 1444
+              }
+            },
+            {
+              "POIName": "MC_0_C_17",
+              "Description": "Lecture room in Middlesex College basement floor. \n\nSeating Capacity:48 \n\nContains: Chalkboard(16-ft Sliding), Projection Screen(8-ft Motorized), Fixed Tab Arm Chairs \n\nTechnology: Projector, Webcam, HDMI (no cable), VGA, DVD/VCR, Sound System, Microphone, Classroom Computer, Wireless Connection",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 660,
+                "y": 394
+              }
+            },
+            {
+              "POIName": "MC_0_S_ST1",
+              "Description": "Stairwell in Middlesex College basement floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 251,
+                "y": 1526
+              }
+            },
+            {
+              "POIName": "MC_0_S_ST2",
+              "Description": "Stairwell in Middlesex College basement floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 805,
+                "y": 1430
+              }
+            },
+            {
+              "POIName": "MC_0_S_ST3",
+              "Description": "Stairwell in Middlesex College basement floor. Up Only.",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 2173,
+                "y": 1040
+              }
+            },
+            {
+              "POIName": "MC_0_S_ST5",
+              "Description": "Stairwell in Middlesex College basement floor. Up only.",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 3168,
+                "y": 1572
+              }
+            },
+            {
+              "POIName": "MC_0_RT_GradClub",
+              "Description": "Grad Club. \nHOURS:\n    Monday: 8am-9pm\n    Tuesday-Friday: 8am-11pm\n    Saturday & Sunday: Closed\n\nMENU: https://www.uwogradclub.ca/menu \n\nCONTACT: (519) 661-3082",
+              "Type": 14,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1717,
+                "y": 633
+              }
+            },
+            {
+              "POIName": "MC_0_RT_19",
+              "Description": "Grad Club. \nHOURS:\n    Monday: 8am-9pm\n    Tuesday-Friday: 8am-11pm\n    Saturday & Sunday: Closed\n\nMENU: https://www.uwogradclub.ca/menu \n\nCONTACT: (519) 661-3082",
+              "Type": 14,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1717,
+                "y": 633
+              }
+            },
+            {
+              "POIName": "MC_0_Ex_Exit6",
+              "Description": "Grad Club Exit. Opens to Patio.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1482,
+                "y": 506
+              }
+            },
+            {
+              "POIName": "MC_0_Ex_Exit7",
+              "Description": "Grad Club Exit. Opens to Patio.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1806,
+                "y": 454
+              }
+            },
+            {
+              "POIName": "MC_0_Ex_Exit8",
+              "Description": "Grad Club Exit. Opens to Patio.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 2126,
+                "y": 506
+              }
+            },
+            {
+              "POIName": "MC_0_W_4B(Washroom-F)",
+              "Description": "Female washroom.",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1581,
+                "y": 1046
+              }
+            },
+            {
+              "POIName": "MC_0_W_5B(Washroom-M)",
+              "Description": "Male washroom.",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1506,
+                "y": 1126
+              }
+            },
+            {
+              "POIName": "MC_0_W_5B(Washroom-Uni)",
+              "Description": "Accessible Unisex washroom.",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1504,
+                "y": 928
+              }
+            },
+            {
+              "POIName": "MC_0_W_28E(Washroom-M)",
+              "Description": "Male washroom.",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 2859,
+                "y": 1422
+              }
+            }
+          ]
+        },
+        {
+          "FloorNumber": 1,
+          "BuildingName": "Middlesex College",
+          "FloorMap": "MC2.png",
+          "POIList": [
+            {
+              "POIName": "MC_1_C_105B",
+              "Description": "Common lecture room in Middlesex College",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 400,
+                "y": 1200
+              }
+            },
+            {
+              "POIName": "MC_1_C_110",
+              "Description": "Common lecture room in Middlesex College",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1810,
+                "y": 695
+              }
+            },
+            {
+              "POIName": "MC_1_S_ST1",
+              "Description": "Stairwell in on main floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 317,
+                "y": 1509
+              }
+            },
+            {
+              "POIName": "MC_1_S_ST2",
+              "Description": "Stairwell in on main floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 785,
+                "y": 1403
+              }
+            },
+            {
+              "POIName": "MC_1_S_ST3",
+              "Description": "Stairwell on main floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 2131,
+                "y": 1076
+              }
+            },
+            {
+              "POIName": "MC_1_S_ST5",
+              "Description": "Stairwell on main floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 3140,
+                "y": 1565
+              }
+            },
+            {
+              "POIName": "MC_1_Ex_MainEntrance",
+              "Description": "Main entrance into building.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1807,
+                "y": 1247
+              }
+            },
+            {
+              "POIName": "MC_1_Ex_Exit3",
+              "Description": "Side entrance into building.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 119,
+                "y": 1581
+              }
+            },
+            {
+              "POIName": "MC_1_Ex_Exit2",
+              "Description": "Side entrance into building.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 879,
+                "y": 1595
+              }
+            },
+            {
+              "POIName": "MC_1_Ex_Exit11",
+              "Description": "Entrance into building.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 2147,
+                "y": 1163
+              }
+            },
+            {
+              "POIName": "MC_1_Ex_Exit12",
+              "Description": "Entrance into building. Beside main entrance.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1991,
+                "y": 1310
+              }
+            },
+            {
+              "POIName": "MC_1_Ex_Exit10",
+              "Description": "Entrance into building. Elevator access.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 2693,
+                "y": 1528
+              }
+            },
+            {
+              "POIName": "MC_1_Ex_Exit13",
+              "Description": "Side entrance into building.",
+              "Type": 15,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 3239,
+                "y": 1612
+              }
+            },
+            {
+              "POIName": "MC_1_W_139(Washroom-F)",
+              "Description": "Female washroom on main floor.",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 2864,
+                "y": 1439
+              }
+            },
+            {
+              "POIName": "MC_1_W_100(Washroom-M)",
+              "Description": "Male washroom on main floor.",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1486,
+                "y": 1070
+              }
+            }
+          ]
+        },
+        {
+          "FloorNumber": 2,
+          "BuildingName": "Middlesex College",
+          "FloorMap": "MC3.png",
+          "POIList": [
+            {
+              "POIName": "MC_2_C_204",
+              "Description": "Classroom in Middlesex College second floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 1808,
+                "y": 873
+              }
+            },
+            {
+              "POIName": "MC_2_W_205",
+              "Description": "Women Washroom in Middlesex College second floor",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 1466,
+                "y": 1059
+              }
+            },
+            {
+              "POIName": "MC_1_CR_220",
+              "Description": "Collaborative Room in Middlesex College second floor",
+              "Type": 4,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 683,
+                "y": 1431
+              }
+            },
+            {
+              "POIName": "MC_2_L_230",
+              "Description": "Lab in Middlesex College second floor",
+              "Type": 4,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 331,
+                "y": 1259
+              }
+            },
+            {
+              "POIName": "MC_2_L_235",
+              "Description": "Lab in Middlesex College second floor",
+              "Type": 4,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 490,
+                "y": 1184
+              }
+            },
+            {
+              "POIName": "MC_2_CR_239",
+              "Description": "Collaborative Room in Middlesex College second floor",
+              "Type": 4,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 689,
+                "y": 1209
+              }
+            },
+            {
+              "POIName": "MC_2_L_240",
+              "Description": "Lab in Middlesex College second floor",
+              "Type": 4,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 956,
+                "y": 1002
+              }
+            },
+            {
+              "POIName": "MC_2_L_240A",
+              "Description": "Lab in Middlesex College second floor",
+              "Type": 4,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 1171,
+                "y": 811
+              }
+            },
+            {
+              "POIName": "MC_2_E_ELEVA",
+              "Description": "Elevator in Middlesex College second floor",
+              "Type": 11,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 1980,
+                "y": 963
+              }
+            },
+            {
+              "POIName": "MC_2_S_ST1",
+              "Description": "Stairs in Middlesex College second floor",
+              "Type": 14,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 308,
+                "y": 1503
+              }
+            },
+            {
+              "POIName": "MC_2_S_ST2",
+              "Description": "Stairs in Middlesex College second floor",
+              "Type": 14,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 783,
+                "y": 1389
+              }
+            },
+            {
+              "POIName": "MC_2_S_ST3",
+              "Description": "Stairs in Middlesex College second floor",
+              "Type": 14,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 2126,
+                "y": 1075
+              }
+            },
+            {
+              "POIName": "MC_2_S_ST5",
+              "Description": "Stairs in Middlesex College second floor",
+              "Type": 14,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 3134,
+                "y": 1551
+              }
+            },
+            {
+              "POIName": "MC_2_W_278",
+              "Description": "Unisex Washroom in Middlesex College second floor",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 2850,
+                "y": 1414
+              }
+            }
+          ]
+        },
+        {
+          "FloorNumber": 3,
+          "BuildingName": "Middlesex College",
+          "FloorMap": "MC4.png",
+          "POIList": [
+            {
+              "POIName": "MC_3_C_300",
+              "Description": "Classroom in Middlesex College third floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 1800,
+                "y": 1158
+              }
+            },
+            {
+              "POIName": "MC_3_W_311",
+              "Description": "Men Washroom in Middlesex College third  floor",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 1472,
+                "y": 1050
+              }
+            },
+            {
+              "POIName": "MC_3_C_316",
+              "Description": "Classroom in Middlesex College third floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 1130,
+                "y": 1222
+              }
+            },
+            {
+              "POIName": "MC_3_C_320",
+              "Description": "Classroom in Middlesex College third floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 943,
+                "y": 1329
+              }
+            },
+            {
+              "POIName": "MC_3_CR_325",
+              "Description": "Collaborative Room in Middlesex College third floor",
+              "Type": 5,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 631,
+                "y": 1503
+              }
+            },
+            {
+              "POIName": "MC_3_L_342",
+              "Description": "Lab in Middlesex College third floor",
+              "Type": 4,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 1341,
+                "y": 775
+              }
+            },
+            {
+              "POIName": "MC_3_E_ELEVA",
+              "Description": "Elevator in Middlesex College third floor",
+              "Type": 11,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 1980,
+                "y": 967
+              }
+            },
+            {
+              "POIName": "MC_3_E_ELEVC",
+              "Description": "Elevator in Middlesex College third floor",
+              "Type": 11,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 2784,
+                "y": 1350
+              }
+            },
+            {
+              "POIName": "MC_3_S_ST1",
+              "Description": "Stairs in Middlesex College third floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 306,
+                "y": 1515
+              }
+            },
+            {
+              "POIName": "MC_3_S_ST2",
+              "Description": "Stairs in Middlesex College third floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 786,
+                "y": 1405
+              }
+            },
+            {
+              "POIName": "MC_3_S_ST3",
+              "Description": "Stairs in Middlesex College third floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 2131,
+                "y": 1070
+              }
+            },
+            {
+              "POIName": "MC_3_S_ST5",
+              "Description": "Stairs in Middlesex College third floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 3,
+              "Location": {
+                "x": 3132,
+                "y": 1550
+              }
+            }
+          ]
+        },
+        {
+          "FloorNumber": 4,
+          "BuildingName": "Middlesex College",
+          "FloorMap": "MC5.png",
+          "POIList": [
+            {
+              "POIName": "MC_4_E_ELEVC",
+              "Description": "Elevator in Middlesex College 4th floor",
+              "Type": 11,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 4,
+              "Location": {
+                "x": 2781,
+                "y": 1351
+              }
+            },
+            {
+              "POIName": "MC_4_S_ST3",
+              "Description": "Stairs in Middlesex College 4th floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 4,
+              "Location": {
+                "x": 2488,
+                "y": 1143
+              }
+            },
+            {
+              "POIName": "MC_4_S_ST5",
+              "Description": "Stairs in Middlesex College 4th floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Middlesex College",
+              "FloorNumber": 4,
+              "Location": {
+                "x": 3111,
+                "y": 1558
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "BuildingName": "TD Stadium",
+      "Building Description": "Athletics stadium",
+      "Building Location": {
+        "x": 2160,
+        "y": 4787
+      },
+      "FloorList": [
+        {
+          "FloorNumber": 0,
+          "BuildingName": "TD Stadium",
+          "FloorMap": "TD1.png",
+          "POIList": [
+            {
+              "POIName": "TD_0_W_55",
+              "Description": "Men washroom #55 in TD stadium",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 617,
+                "y": 972
+              }
+            },
+            {
+              "POIName": "TD_0_W_28",
+              "Description": "Women washroom #28 in TD stadium",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 674,
+                "y": 766
+              }
+            },
+            {
+              "POIName": "TD_0_W_40",
+              "Description": "Women washroom #40 in TD stadium",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1967,
+                "y": 766
+              }
+            },
+            {
+              "POIName": "TD_0_W_6",
+              "Description": "Men washroom #6 in TD stadium",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 2044,
+                "y": 967
+              }
+            },
+            {
+              "POIName": "TD_0_S_ST1",
+              "Description": "Stair 1 in TD stadium",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 992,
+                "y": 1348
+              }
+            },
+            {
+              "POIName": "TD_0_S_ST2",
+              "Description": "Stair 2 in TD stadium",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1645,
+                "y": 1371
+              }
+            },
+            {
+              "POIName": "TD_0_E_ELEVA",
+              "Description": "Elevator A in TD stadium",
+              "Type": 11,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1666,
+                "y": 1299
+              }
+            },
+            {
+              "POIName": "TD_0_W_2",
+              "Description": "Men washroom #2 in TD stadium",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 2750,
+                "y": 1432
+              }
+            },
+            {
+              "POIName": "TD_0_W_1",
+              "Description": "Wowen washroom #1 in TD stadium",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 2497,
+                "y": 1545
+              }
+            }
+          ]
+        },
+        {
+          "FloorNumber": 1,
+          "BuildingName": "TD Stadium",
+          "FloorMap": "TD2.png",
+          "POIList": [
+            {
+              "POIName": "TD_1_W_109",
+              "Description": "Unisex washroom 109 in TD stadium",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1895,
+                "y": 1165
+              }
+            },
+            {
+              "POIName": "TD_1_E_ELEVA",
+              "Description": "Elevator A in TD stadium",
+              "Type": 11,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1663,
+                "y": 1297
+              }
+            },
+            {
+              "POIName": "TD_2_S_ST1",
+              "Description": "Stair 1 in TD stadium",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1007,
+                "y": 1483
+              }
+            },
+            {
+              "POIName": "TD_2_S_ST2",
+              "Description": "Stair 2 in TD stadium",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1643,
+                "y": 1447
+              }
+            },
+            {
+              "POIName": "TD_1_T_Terrace",
+              "Description": "Roof Terrace in TD stadium",
+              "Type": 12,
+              "Fav": false,
+              "BuildingName": "TD Stadium",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1333,
+                "y": 1413
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "BuildingName": "Alumni Hall",
+      "Building Description": "Multi-purpose auditorium",
+      "Building Location": {
+        "x": 1980,
+        "y": 3477
+      },
+      "FloorList": [
+        {
+          "FloorNumber": 0,
+          "BuildingName": "Alumni Hall",
+          "FloorMap": "AH2.png",
+          "POIList": [
+            {
+              "POIName": "AH_0_WA_12",
+              "Description": "Men's Washroom in first floor AH",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1838,
+                "y": 1454
+              }
+            },
+            {
+              "POIName": "AH_0_W_13",
+              "Description": "Women's Washroom in first floor AH",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1838,
+                "y": 1454
+              }
+            },
+            {
+              "POIName": "AH_0_S_ST1",
+              "Description": "Stairs",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1750,
+                "y": 1844
+              }
+            },
+            {
+              "POIName": "AH_0_S_ST2",
+              "Description": "Stairs",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 1724,
+                "y": 359
+              }
+            },
+            {
+              "POIName": "AH_0_S_ST3",
+              "Description": "Stairs",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 891,
+                "y": 588
+              }
+            },
+            {
+              "POIName": "AH_0_S_ST4",
+              "Description": "Stairs",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 0,
+              "Location": {
+                "x": 901,
+                "y": 1609
+              }
+            }
+          ]
+        },
+        {
+          "FloorNumber": 1,
+          "BuildingName": "Alumni Hall",
+          "FloorMap": "AH3.png",
+          "POIList": [
+            {
+              "POIName": "AH_1_R_101",
+              "Description": "Classroom in Alumni Hall first floor",
+              "Type": 2,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1760,
+                "y": 1674
+              }
+            },
+            {
+              "POIName": "AH_1_W_102",
+              "Description": "Women's Washroom in Alumni Hall first floor",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1564,
+                "y": 1464
+              }
+            },
+            {
+              "POIName": "AH_1_W_103",
+              "Description": "Accessible Washroom in Alumni Hall first floor",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1620,
+                "y": 1502
+              }
+            },
+            {
+              "POIName": "AH_1_W_108",
+              "Description": "Men's Washroom in Alumni Hall first floor",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1554,
+                "y": 697
+              }
+            },
+            {
+              "POIName": "AH_1_W_109",
+              "Description": "Accessible Washroom in Alumni Hall first floor",
+              "Type": 3,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1607,
+                "y": 662
+              }
+            },
+            {
+              "POIName": "AH_1_S_ST1",
+              "Description": "Stairs in Alumni Hall first floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1686,
+                "y": 1784
+              }
+            },
+            {
+              "POIName": "AH_1_S_ST2",
+              "Description": "Stairs in Alumni Hall first floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1690,
+                "y": 392
+              }
+            },
+            {
+              "POIName": "AH_1_R_ST3",
+              "Description": "Stairs",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 895,
+                "y": 571
+              }
+            },
+            {
+              "POIName": "AH_1_R_ST4",
+              "Description": "Stairs in Alumni Hall first floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 1,
+              "Location": {
+                "x": 1913,
+                "y": 1617
+              }
+            }
+          ]
+        },
+        {
+          "FloorNumber": 2,
+          "BuildingName": "Alumni Hall",
+          "FloorMap": "AH1.png",
+          "POIList": [
+            {
+              "POIName": "AH_2_R_200",
+              "Description": "Seating for the Alumni Hall Stage in Alumni Hall second floor",
+              "Type": 8,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 1978,
+                "y": 1081
+              }
+            },
+            {
+              "POIName": "AH_2_R_201",
+              "Description": "Multiple use room, can be seating for exams & on stage lectures, can also function as an open area for activites in Alumni Hall second floor",
+              "Type": 8,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 1224,
+                "y": 1199
+              }
+            },
+            {
+              "POIName": "AH_2_R_206",
+              "Description": "Stage, multi use area in Alumni Hall second floor",
+              "Type": 8,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 840,
+                "y": 1057
+              }
+            },
+            {
+              "POIName": "AH_2_S_ST1",
+              "Description": "Stairs in Alumni Hall second floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 1785,
+                "y": 1824
+              }
+            },
+            {
+              "POIName": "AH_2_S_ST2",
+              "Description": "Stairs in Alumni Hall second floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 1794,
+                "y": 348
+              }
+            },
+            {
+              "POIName": "AH_2_S_ST3",
+              "Description": "Stairs in Alumni Hall second floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 943,
+                "y": 578
+              }
+            },
+            {
+              "POIName": "AH_2_S_ST4",
+              "Description": "Stairs in Alumni Hall second floor",
+              "Type": 13,
+              "Fav": false,
+              "BuildingName": "Alumni Hall",
+              "FloorNumber": 2,
+              "Location": {
+                "x": 957,
+                "y": 1597
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

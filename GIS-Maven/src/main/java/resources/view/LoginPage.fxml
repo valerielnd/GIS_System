@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="loginVbox" prefHeight="464.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginPageController">
+   <children>
+      <GridPane prefHeight="402.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="125.4" minHeight="10.0" prefHeight="80.99997787475586" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="142.79998168945312" minHeight="10.0" prefHeight="92.39998779296874" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="233.4" minHeight="10.0" prefHeight="76.60000610351562" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="249.4000305175781" minHeight="10.0" prefHeight="71.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="249.4000305175781" minHeight="10.0" prefHeight="76.59998779296876" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="249.4000305175781" minHeight="10.0" prefHeight="66.20001220703125" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+               <children>
+                  <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                  <ImageView fx:id="appLogo" fitHeight="59.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../images/Stacked.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Region prefHeight="75.0" prefWidth="41.0" HBox.hgrow="NEVER" />
+                  <Label prefHeight="69.0" prefWidth="164.0" text="Western GIS" textFill="#181717" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="82.0" prefWidth="211.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Region prefHeight="82.0" prefWidth="82.0" HBox.hgrow="ALWAYS" />
+                              <ImageView fitHeight="47.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <HBox.margin>
+                                    <Insets top="22.0" />
+                                 </HBox.margin>
+                                 <image>
+                                    <Image url="@../images/userid.png" />
+                                 </image>
+                              </ImageView>
+                              <Region prefHeight="92.0" prefWidth="14.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="82.0" prefWidth="390.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox prefHeight="82.0" prefWidth="356.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <TextField fx:id="emailTxtField" prefHeight="26.0" prefWidth="202.0" HBox.hgrow="ALWAYS">
+                                 <HBox.margin>
+                                    <Insets top="25.0" />
+                                 </HBox.margin>
+                              </TextField>
+                              <Region prefHeight="82.0" prefWidth="146.0" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <VBox prefHeight="82.0" prefWidth="211.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Region prefHeight="97.0" prefWidth="63.0" HBox.hgrow="ALWAYS" />
+                              <ImageView fitHeight="61.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                                 <HBox.margin>
+                                    <Insets top="18.0" />
+                                 </HBox.margin>
+                                 <image>
+                                    <Image url="@../images/password.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="82.0" prefWidth="390.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox prefHeight="82.0" prefWidth="356.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <PasswordField fx:id="passwordTxtField" prefHeight="26.0" prefWidth="214.0" HBox.hgrow="ALWAYS">
+                                 <HBox.margin>
+                                    <Insets top="25.0" />
+                                 </HBox.margin>
+                              </PasswordField>
+                              <Region prefHeight="82.0" prefWidth="146.0" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="78.0" prefWidth="314.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Region prefHeight="78.0" prefWidth="136.0" HBox.hgrow="ALWAYS" />
+                              <Button fx:id="LoginBtn" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="94.0" text="Login" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets top="20.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Region prefHeight="77.0" prefWidth="38.0" HBox.hgrow="NEVER" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="78.0" prefWidth="316.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Region prefHeight="77.0" prefWidth="20.0" HBox.hgrow="ALWAYS" />
+                              <Button fx:id="signUpBtn" mnemonicParsing="false" onAction="#signup" prefHeight="40.0" prefWidth="92.0" text="Sign Up" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets top="20.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Region prefHeight="77.0" prefWidth="97.0" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <children>
+                  <Region prefHeight="76.0" prefWidth="271.0" HBox.hgrow="ALWAYS" />
+                  <Hyperlink fx:id="forgetPassLink" alignment="CENTER" contentDisplay="CENTER" onAction="#forgetPassword" prefHeight="26.0" prefWidth="228.0" text="Forget my password" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="25.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Bell MT" size="18.0" />
+                     </font>
+                  </Hyperlink>
+                  <Region prefHeight="95.0" prefWidth="206.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+               <children>
+                  <Region prefHeight="78.0" prefWidth="239.0" HBox.hgrow="ALWAYS" />
+                  <Label fx:id="erroLbl" alignment="CENTER" prefHeight="18.0" prefWidth="156.0" textFill="#e71616" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="25.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Book Antiqua" size="14.0" />
+                     </font>
+                  </Label>
+                  <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+   </children>
+</VBox>

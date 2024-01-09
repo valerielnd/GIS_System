@@ -1,0 +1,6 @@
+model\POITest.class
+model\UserTest.class
+model\FloorTest.class
+model\Vec2Test.class
+model\BuildingTest.class
+model\CampusMapTest.class

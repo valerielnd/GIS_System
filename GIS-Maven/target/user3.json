@@ -1,0 +1,184 @@
+[
+    {
+        "Answer": "Australia",
+        "password": "user1",
+        "POIList": [
+            {
+                "Type": 15,
+                "FloorNumber": 0,
+                "Description": "Stiller center",
+                "BuildingName": "Campus Map",
+                "Fav": true,
+                "POIName": "Stiller Center",
+                "Location": {
+                    "x": 1169,
+                    "y": 564
+                }
+            },
+            {
+                "Type": 15,
+                "FloorNumber": 1,
+                "Description": "TD Stadium roof terrace",
+                "BuildingName": "TD Stadium",
+                "Fav": true,
+                "POIName": "Roof terrace TD",
+                "Location": {
+                    "x": 1315,
+                    "y": 1406
+                }
+            }
+        ],
+        "Developer": 0,
+        "Question": "What is your favorite country?",
+        "email": "user1.com"
+    },
+    {
+        "Answer": "Brazil",
+        "password": "user2",
+        "POIList": [{
+            "Type": 15,
+            "FloorNumber": 0,
+            "Description": "NCB",
+            "BuildingName": "Campus Map",
+            "Fav": true,
+            "POIName": "NCB Building",
+            "Location": {
+                "x": 1296,
+                "y": 771
+            }
+        }],
+        "Developer": 1,
+        "Question": "What is your favorite country?",
+        "email": "user2.com"
+    },
+    {
+        "Answer": "Sing",
+        "password": "user4",
+        "POIList": [],
+        "Developer": 0,
+        "Question": "What is your favorite hobby?",
+        "email": "user4.com"
+    },
+    {
+        "Answer": "iran",
+        "password": "user33",
+        "POIList": [],
+        "Developer": 0,
+        "Question": "What is your favorite country?",
+        "email": "user3.com"
+    },
+    {
+        "Answer": "testing",
+        "password": "tauser",
+        "POIList": [
+            {
+                "Type": 1,
+                "FloorNumber": 0,
+                "Description": "Building for the departments of Mathematics and Computer Science",
+                "BuildingName": "Campus Map",
+                "Fav": true,
+                "POIName": "Middlesex College",
+                "Location": {
+                    "x": 2821,
+                    "y": 2506
+                }
+            },
+            {
+                "Type": 3,
+                "FloorNumber": 0,
+                "Description": "Women washroom #28 in TD stadium",
+                "BuildingName": "TD Stadium",
+                "Fav": true,
+                "POIName": "TD_0_W_28",
+                "Location": {
+                    "x": 674,
+                    "y": 766
+                }
+            },
+            {
+                "Type": 1,
+                "FloorNumber": 0,
+                "Description": "Multi-purpose Auditorium",
+                "BuildingName": "Campus Map",
+                "Fav": true,
+                "POIName": "Alumni Hall",
+                "Location": {
+                    "x": 1980,
+                    "y": 3477
+                }
+            },
+            {
+                "Type": 1,
+                "FloorNumber": 0,
+                "Description": "Athletics stadium",
+                "BuildingName": "Campus Map",
+                "Fav": true,
+                "POIName": "TD Stadium",
+                "Location": {
+                    "x": 2160,
+                    "y": 4787
+                }
+            }
+        ],
+        "Developer": 0,
+        "Question": "What is your favorite hobby?",
+        "email": "tauser.com"
+    },
+    {
+        "Answer": "marking",
+        "password": "tauser",
+        "POIList": [
+            {
+                "Type": 15,
+                "FloorNumber": 0,
+                "Description": "Alumni Hall",
+                "BuildingName": "Alumni Hall",
+                "Fav": true,
+                "POIName": "Room 17",
+                "Location": {
+                    "x": 1689,
+                    "y": 688
+                }
+            },
+            {
+                "Type": 15,
+                "FloorNumber": 0,
+                "Description": "Support Services Building",
+                "BuildingName": "Campus Map",
+                "Fav": true,
+                "POIName": "Support Services",
+                "Location": {
+                    "x": 1317,
+                    "y": 2179
+                }
+            },
+            {
+                "Type": 15,
+                "FloorNumber": 3,
+                "Description": "Collab Room",
+                "BuildingName": "Middlesex College",
+                "Fav": true,
+                "POIName": "MC325",
+                "Location": {
+                    "x": 627,
+                    "y": 1502
+                }
+            },
+            {
+                "Type": 15,
+                "FloorNumber": 0,
+                "Description": "Stiller Center",
+                "BuildingName": "Campus Map",
+                "Fav": true,
+                "POIName": "Stiller Center",
+                "Location": {
+                    "x": 1176,
+                    "y": 577
+                }
+            }
+        ],
+        "Developer": 1,
+        "Question": "What is your favorite hobby?",
+        "email": "tauserdev.com"
+    }
+]

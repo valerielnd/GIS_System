@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-image: url("Western.png");
+}
+
+
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parent button {
+  background-color: #48abe0;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 31px;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.parent button:active {
+  background-color: #48abe0;
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
+}
+
+.parent button:not(:first-child) {
+  margin-top: 10px;
+}
+
+.round-6 {
+  border-radius: 70%;
+}
+
+.collapsible {
+  background-color: rgba(119,119,119,.97);;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgba(68,68,68);
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(241,241,241,.8);
+}
+
+
+</style>
+</head>
+<body>
+
+<center>
+<h1 style="color: #ff5500; text-align: center;">GIS - Help and Info<img src="iconfixed.png" width ="70" height="100" alt="" /></h1>
+<hr style="width: 800px;" />
+</center>
+<p>&nbsp;</p>
+<h5 style= "color: white;">Created By:<br>John Krupa (251139568)<br>Tyler James Johnson (251179554)<br>Cynthia Du (251112464)<br>Thai An Luong (251098286)<br>Irmene-Valerie Leonard (251106925)</h5>
+
+
+
+<h1 style="color: white">&emsp;&emsp;User Tutorial</h1>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Sign Up</h3></button>
+<div class="content">
+	<p></p>
+
+	<h4>&#x2022; To Sign up for GIS and create a new account first click the “Sign Up” Button on the Sign in page.<br> 
+	&emsp;You will be directed to the sign up pop up window.</h4>
+	<h4>&#x2022; Enter your email as well as your unique security question and Password. (Never send or share your password to others) </h4>
+	<h4>&#x2022; If your login email is valid and new then your new account will be created and you will be redirected to the login page to sign in </h4>
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Sign In</h3></button>
+<div class="content">
+  <p></p>
+
+	<h4>&#x2022; To sign into the GIS interface, open the app and fill in your email and password. Then click the “Sign In” Button.</h4>
+	<h4>&#x2022; If your log in information is valid you will be directed to the Campus Map Screen.</h4>
+	<h4 style = "color:red">&#x2022; If you are encountering errors please consult the reset password section of the help site.</h4>
+
+	<p></p>
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Reset Password</h3></button>
+<div class="content">
+  <p></p>
+
+	<h4>&#x2022; To reset you password in the case of it being forgotten or compromised, first click the “Forgot Password” Button on the sign in page. You will be directed to the forgotten password Pop-Up</h4>
+	<h4>&#x2022; Input the email you previously used to sign up, after entering your email you will be prompted to enter the security question you chose when setting up your account</h4>
+	<h4>&#x2022; After entering your security Question you will now be able to enter and confirm your new password to log in with</h4>
+	<p></p>
+</div>
+
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Search Buildings</h3></button>
+<div class="content">
+  <p></p>
+
+	<h4>&#x2022; At the left tool box, select the drop box menu for building</h4>
+	
+	<h4 style = "color:red">&#x2022; This will only show the buildings that weres added.</h4>
+	
+
+	<p></p>
+</div>
+
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Search POIs</h3></button>
+<div class="content">
+  <p></p>
+
+	<h4>&#x2022; At the left tool box, select the drop box menu for building</h4>
+	<h4>&#x2022; The floor drop box is avaiable afer the building is selected </h4>
+	<h4>&#x2022; POIs drop box will be show and can be select base on POIs name</h4>
+	<h4 style = "color:red">&#x2022; POIs will only show the POIs that weres added.</h4>
+
+	<p></p>
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Add POIs</h3></button>
+<div class="content">
+
+  <p></p>
+
+	<h4>&#x2022;To add a Custom POI to the map, first navigate to the floor you want to add the POI to</h4>
+	<h4>&#x2022;Click on the Add POI to bring you to the POI information pop up.</h4>
+	<h4>&#x2022;Fill in the information for the POI name and description. You can also chose to add the POI to your list of favourites</h4>
+	<h4>&#x2022;Click “Save” to store the POI and add it to your Custom POI list</h4>
+	<p></p>
+</div>
+
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Edit POI</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; Select one POI in the favourite box from the left tool box</h4>
+	<h4>&#x2022; Select edit POI drop box and choose edit</h4>
+	<h4>&#x2022; Edit POI option: change name ; change description , set the POI into favourite</h4>
+
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Remove POI</h3></button>
+<div class="content">
+  	<p></p>
+
+	<h4>&#x2022; To Remove a Custom POI use the left side “Custom POI” Menu to select the Custom POI you want to delete</h4>
+	<h4>&#x2022; Right Click the custom POI to bring up the edit button</h4>
+	<h4>&#x2022; Left click the edit button to expand the edit drop down and click on “Delete”</h4>
+	<h4>&#x2022; You will be directed to the delete POI popup</h4>
+	<h4>&#x2022; If you click delete you will get a confirmation Pop-up then confirming will delete the POI</h4>
+
+	<p></p>
+</div>
+
+
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Toggles POI Layers</h3></button>
+<div class="content">
+  	<p></p>
+
+	<h4>&#x2022; In the bottom left hand side, there is a Layer box</h4>
+	<h4>&#x2022; Select a layer listed in the layer box to turn in on or off</h4>
+
+
+	<p></p>
+</div>
+
+
+<p></p>
+<h1 style="color: white"><br>&emsp;&emsp;Developer Tutorial</h1>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Adding Building Map</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; Select the location of where you want to place the building on the campus map</h4>
+	<h4>&#x2022; Click on the "Edit Building" button on the top left hand side of the window</h4>
+	<h4>&#x2022; In the drop down list, select "+ Add Building" button</h4>
+	<h4>&#x2022; Add the building information you want in the new popup</h4>
+	<h4>&#x2022; Click "save"</h4>
+
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Edit Building</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; On the top left hand side, click on "Edit building"</h4>
+	<h4>&#x2022; Select the building you want to edit in the drop down menu</h4>
+	<h4>&#x2022; Fill in the information for the building in the new popup</h4>
+	<h4>&#x2022; Select "Save"</h4>
+
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Removing Buildings</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; On the top left hand side, select "Edit Buildings"</h4>
+	<h4>&#x2022; Select a building in the drop down menu that just appeared</h4>
+	<h4>&#x2022; On the new popup, click "Delete"</h4>
+
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Adding POIs</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; On the left side, above the Built-in POIs box, there is a "Add" button. Select it</h4>
+	<h4>&#x2022; Fill in the inforamtion in the new popup window</h4>
+	<h4>&#x2022; Select "Save" once done</h4>
+
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Edit Built-in POIs</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; In the built-in POIs box, right click on a POI in that box</h4>
+	<h4>&#x2022; Beside the "Add" button is now a new "Edit" button. Select it</h4>
+	<h4>&#x2022; In the new drop down, click edit</h4>
+	<h4>&#x2022; In the popup, fill in the information you want. Then select "save" </h4>
+
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Removing Built-In POI</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; In the Built-in POIs box, right click a POI</h4>
+	<h4>&#x2022; A new "Edit" button will appear above the box. Select it</h4>
+	<h4>&#x2022; In the drop down, select delete</h4>
+
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Adding a Floor</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; In the top left hand side, select "Edit Building"</h4>
+	<h4>&#x2022; In the drop down, select the building of the floor you want to add</h4>
+	<h4>&#x2022; Select add floor from the new popup</h4>
+	<h4>&#x2022; Add the floor information to the new popup and then hit "Save"</h4>
+
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Edit Floor</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; In the top left hand side, select "Edit Building"</h4>
+	<h4>&#x2022; Select the building for the floor you want to edit in the drop down menu</h4>
+	<h4>&#x2022; Select edit floor in the new popup</h4>
+	<h4>&#x2022; Select the floor number in the drop down menu</h4>
+	<h4>&#x2022; Edit in the information in the new popup and then select "Save"</h4>
+	<p></p>
+
+</div>
+
+<!-- button----------------------- -->
+<button type="button" class="collapsible"><h3>Remove Floor</h3></button>
+<div class="content">
+ 	<p></p>
+
+	<h4>&#x2022; In the top left hand side, select "Edit Building"</h4>
+	<h4>&#x2022; Select the building for the floor you want to delete in the drop down menu</h4>
+	<h4>&#x2022; In the new popup, click "Delete"</h4>
+
+	<p></p>
+
+</div>
+
+<p></p>
+<h1 style="color: white"><br>&emsp;&emsp;External source</h1>
+<button type="button" class="collapsible"><h3>Libraries Used</h3></button>
+<div class="content">
+
+  <p></p>
+
+	<h4>&#x2022;Java™ Development Kit 19</h4>
+	<h4>&#x2022;JUnit5</h4>
+	<h4>&#x2022;Json (2022-september version)</h4>
+
+	<p></p>
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
+ 
