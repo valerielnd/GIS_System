@@ -1,4 +1,4 @@
-<img src="Project-Pictures/wes.png" width=100%>
+<img src="Project-Pictures/west.png" width=50%>
 
 A desktop application in Java designed for navigating within Western University's campus.
 
