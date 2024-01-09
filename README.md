@@ -18,11 +18,11 @@ of interest and reach their destinations quickly. Users can also submit and shar
 
 ## Development environment 
 
-### IDE 
+* **IDE**
 
 The project involves creating a Java  desktop application, and we used NetBeans IDE 15 to develop it. 
 
-### Library
+* **Library**
 
 [JavaFX 19.0.1](https://openjfx.io/javadoc/19/): To build the application's GUI.
 
@@ -30,7 +30,7 @@ The project involves creating a Java  desktop application, and we used NetBeans 
 
 [Junit5](https://junit.org/junit5/): For automated tests, especially to verify each unit of the project.
 
-### Documentation
+* **Documentation**
 To generate API documentation in HTML format for the Java classes of the application, we will use the [Javadoc tool](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html).
 
 ### Project Management
