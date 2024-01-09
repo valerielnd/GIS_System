@@ -1,6 +1,6 @@
-<img src="Project-Pictures/weste.png" width=100%>
+<img src="Project-Pictures/weste.png" width=70%>
 
-A desktop application in Java designed for navigating within Western University's campus.
+A desktop application in Java for navigating within Western University's campus.
 
 ## Project Overview
 
