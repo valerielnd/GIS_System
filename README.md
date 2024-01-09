@@ -20,7 +20,7 @@ of interest and reach their destinations quickly. Users can also submit and shar
 
 * **IDE**
 
-The project involves creating a Java  desktop application, and we used NetBeans IDE 15 to develop it. 
+  * The project involves creating a Java  desktop application, and we used NetBeans IDE 15 to develop it. 
 
 * **Library**
 
