@@ -1,4 +1,4 @@
-# GIS_System
+![GIS_System](https://github.com/valerielnd/GIS_System/blob/main/Project-Pictures/Western_GIS.png)
 
 A desktop application in Java designed for navigating within Western University's campus.
 
@@ -31,8 +31,11 @@ To generate API documentation in HTML format for the Java classes of the applica
 
 ## Project Management
 Confluence : for project Documenation (UML use cases, UML class diagram, Activity Diagram)
+
 Jira : to manage project tasks through a Kanban board
+
 Git : to manage and store the project code
+
 Balsamic Wireframes : to create the project mockup
 
 ## Some pages from the application
