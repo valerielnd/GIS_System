@@ -10,7 +10,11 @@ to make navigating the campus interiors easier. The app offers quick and efficie
 of interest and reach their destinations quickly. Users can also submit and share their locations, making the app even more valuable and versatile.
 
 ## Project members
-Cynthia Du, Irmene-Valerie Leonard, John Curran Krupa, Thai An Luong, Tyler James Johnson
+* Cynthia Du
+* Irmene-Valerie Leonard
+* John Curran Krupa
+* Thai An Luong
+* Tyler James Johnson
 
 ## Development environment 
 
