@@ -19,19 +19,18 @@ of interest and reach their destinations quickly. Users can also submit and shar
 ## Development environment 
 
 * **IDE**
-
   * The project involves creating a Java  desktop application, and we used NetBeans IDE 15 to develop it. 
 
 * **Library**
 
-[JavaFX 19.0.1](https://openjfx.io/javadoc/19/): To build the application's GUI.
+  * [JavaFX 19.0.1](https://openjfx.io/javadoc/19/): To build the application's GUI.
 
-[JASON-Java](https://stleary.github.io/JSON-java/index.html): User data and the map metadata are stored in JSON files.
+  * [JASON-Java](https://stleary.github.io/JSON-java/index.html): User data and the map metadata are stored in JSON files.
 
-[Junit5](https://junit.org/junit5/): For automated tests, especially to verify each unit of the project.
+  * [Junit5](https://junit.org/junit5/): For automated tests, especially to verify each unit of the project.
 
 * **Documentation**
-To generate API documentation in HTML format for the Java classes of the application, we will use the [Javadoc tool](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html).
+  * To generate API documentation in HTML format for the Java classes of the application, we will use the [Javadoc tool](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html).
 
 ### Project Management
 *Confluence* : for project Documenation (UML use cases, UML class diagram, Activity Diagram)
