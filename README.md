@@ -41,11 +41,13 @@ Balsamic Wireframes : to create the project mockup
 ## Some pages from the application
 
 ### Application Login Page
+<img src="Project-Pictures/login.png" width=70%>
 
 ### Application signup page
+<img src="Project-Pictures/signup.png" width=70%>
 
 ### Application main page
+<img src="Project-Pictures/main_page.png" width=70%>
 
-### Finding point of interests (washrooms) in one of the building
  
 
